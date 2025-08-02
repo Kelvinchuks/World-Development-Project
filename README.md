@@ -57,6 +57,6 @@ Schema:
 - Time-series analysis shows steady fertility decline, internet growth, and fluctuating GDP.
 
 ## 📝 References
-See `World Development Project.pdf`.
+See [World Development Project](https://github.com/Kelvinchuks/World-Development-Project/blob/Kelvinchuks/World%20Development%20Project.ipynb).
 
 Acknowledgement: Group Project (My Team and I)
