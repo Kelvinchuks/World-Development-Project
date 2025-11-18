@@ -19,9 +19,9 @@ Schema:
 - Health Expenditure
 - And more (23 indicators total, 1985–2023)
 
-## ⚙️ Methods and Tools
+## Methods and Tools
 
-### 🔹 Data Processing
+### Data Processing
 - `pandas`, `numpy`, `KNNImputer`, `MinMaxScaler`
 
 ###  Clustering
