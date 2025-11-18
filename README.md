@@ -1,14 +1,14 @@
-# 🌍 World Development Data Project
+# World Development Data Project
 
 ## Overview
 This project explores and classifies countries based on their socio-economic development indicators using machine learning methods: clustering, regression, and classification, with data from the World Bank (1985–2023).
 
-## 📊 Objectives
+## Objectives
 - **Clustering**: Identify groups of countries with similar economic/environmental profiles.
 - **Regression**: Examine predictors of inflation volatility, fertility, female labour participation, and growth.
 - **Classification**: Predict high-inequality, economic instability, income group, and emissions categories.
 
-## 📁 Dataset
+## Dataset
 Source: [World Bank World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
 
 Schema:
@@ -24,22 +24,22 @@ Schema:
 ### 🔹 Data Processing
 - `pandas`, `numpy`, `KNNImputer`, `MinMaxScaler`
 
-### 🔹 Clustering
+###  Clustering
 - `KMeans`
 - Validation: Elbow Method, Silhouette Score, Davies–Bouldin Index
 
-### 🔹 Regression
+###  Regression
 - `OLS`, `Panel Regression`, `LassoCV`
 - Focus: Inflation volatility, labor force participation, fertility trends
 
-### 🔹 Classification
+###  Classification
 - `LogisticRegression`, `RandomForestClassifier`
 - ROC Curve, AUC, GridSearchCV
 
-### 🔹 Visualization
+###  Visualization
 - `matplotlib`, `seaborn`, `PCA`, correlation heatmaps, time series plots
 
-## 🗂 Project Structure
+## Project Structure
 
 - `notebooks/` - Final Jupyter notebook with the full pipeline
 - `src/` - Modular Python scripts for reproducibility
@@ -47,16 +47,16 @@ Schema:
 - `visuals/` - EDA and model visuals
 - `reports/` → findings and summaries, research references
 
-## 📈 Key Findings
+##  Key Findings
 - Internet access and education strongly correlate with lower fertility
 - Countries cluster along lines of trade openness and digital infrastructure
 - Renewable energy negatively correlates with emissions, but not income
 
-## 🔍 Insights
+##  Insights
 - Regression and clustering both reveal meaningful regional and development patterns.
 - Time-series analysis shows steady fertility decline, internet growth, and fluctuating GDP.
 
-## 📝 References
+##  References
 See [World Development Project](https://github.com/Kelvinchuks/World-Development-Project/blob/Kelvinchuks/World%20Development%20Project.ipynb).
 
 Acknowledgement: Group Project (My Team and I)
